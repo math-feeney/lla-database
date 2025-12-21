@@ -16,4 +16,4 @@ $(TARGET): $(OBJ)
 	gcc -o $@ $?
 
 obj/%.o : src/%.c
-	g++ -c $< -o $@ -Iinclude
+	gcc -c $< -o $@ -Iinclude
